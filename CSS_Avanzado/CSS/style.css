@@ -1,0 +1,33 @@
+body {
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/996/405/274/movie-carrie-2013-wallpaper-preview.jpg);
+  background-size: cover;
+  background-color: black;
+}
+
+div {
+  background-color:rgb(100, 100, 100, .7);
+}
+
+p, h1, h2{
+  color: white;
+}
+
+
+
+.apartados {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    color: #fff;
+}
+
+/* Oculta block de texto */
+input.i-text, textarea {
+    display: none;
+  }
+  /* Muestra block de texto en caso de Sí */
+  input.i-radio[value="texto"]:checked ~ textarea {
+    display: block;
+    margin: 0px 740px 0px 0px; 
+    height: 16px; 
+    width: 165px;
+  }
